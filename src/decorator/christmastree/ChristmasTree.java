@@ -1,5 +1,5 @@
 package decorator.christmastree;
 
-public interface Tree {
+public interface ChristmasTree {
     String decorate();
 }

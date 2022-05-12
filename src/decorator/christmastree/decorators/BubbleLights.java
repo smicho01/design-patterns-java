@@ -1,11 +1,11 @@
 package decorator.christmastree.decorators;
 
-import decorator.christmastree.Tree;
+import decorator.christmastree.ChristmasTree;
 import decorator.christmastree.TreeDecorator;
 
 public class BubbleLights extends TreeDecorator {
 
-    public BubbleLights(Tree tree) {
+    public BubbleLights(ChristmasTree tree) {
         super(tree);
     }
 

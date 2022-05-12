@@ -1,10 +1,10 @@
 package decorator.christmastree;
 
-public abstract class TreeDecorator implements Tree {
+public abstract class TreeDecorator implements ChristmasTree {
 
-    private Tree tree;
+    private ChristmasTree tree;
 
-    public TreeDecorator(Tree tree) {
+    public TreeDecorator(ChristmasTree tree) {
         this.tree = tree;
     }
 

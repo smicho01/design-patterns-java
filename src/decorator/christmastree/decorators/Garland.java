@@ -1,11 +1,11 @@
 package decorator.christmastree.decorators;
 
-import decorator.christmastree.Tree;
+import decorator.christmastree.ChristmasTree;
 import decorator.christmastree.TreeDecorator;
 
 public class Garland extends TreeDecorator {
 
-    public Garland(Tree tree) {
+    public Garland(ChristmasTree tree) {
         super(tree);
     }
 

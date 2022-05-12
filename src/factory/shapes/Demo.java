@@ -1,4 +1,4 @@
-package facory.shapes;
+package factory.shapes;
 
 public class Demo {
 

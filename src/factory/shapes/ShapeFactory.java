@@ -1,8 +1,8 @@
-package facory.shapes;
+package factory.shapes;
 
-import facory.shapes.concrete_shapes.Circle;
-import facory.shapes.concrete_shapes.Rectangle;
-import facory.shapes.concrete_shapes.Square;
+import factory.shapes.concrete_shapes.Circle;
+import factory.shapes.concrete_shapes.Rectangle;
+import factory.shapes.concrete_shapes.Square;
 
 import java.util.Locale;
 

@@ -1,6 +1,6 @@
-package facory.shapes.concrete_shapes;
+package abstract_factory.shapes.concrete_shapes;
 
-import facory.shapes.Shape;
+import abstract_factory.shapes.Shape;
 
 public class Rectangle implements Shape {
     @Override

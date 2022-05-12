@@ -1,6 +1,6 @@
-package facory.shapes.concrete_shapes;
+package factory.shapes.concrete_shapes;
 
-import facory.shapes.Shape;
+import factory.shapes.Shape;
 
 public class Square implements Shape {
 

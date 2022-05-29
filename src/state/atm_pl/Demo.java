@@ -7,5 +7,8 @@ public class Demo {
         atm.insertCard();
         atm.insertPin(1234);
         atm.takeCash(1000);
+
+        System.out.println("\nSecond attempt");
+        atm.takeCash(1000);
     }
 }

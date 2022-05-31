@@ -1,8 +1,8 @@
 package command.lights;
 
+import command.lights.commands.DimCommand;
 import command.lights.commands.TurnOffCommand;
 import command.lights.commands.TurnOnCommand;
-import command.stock.Broker;
 
 public class Demo {
     public static void main(String[] args) {
@@ -11,10 +11,12 @@ public class Demo {
         Light livingRoomLight = new Light("Living Room Light");
         Command turnOnLight = new TurnOnCommand(livingRoomLight);
         Command turnOffLight = new TurnOffCommand(livingRoomLight);
+        Command dimLight = new DimCommand(livingRoomLight);
 
         smartHomeSiri.addCommand(turnOffLight);
         smartHomeSiri.executeCommands();
         smartHomeSiri.addCommand(turnOnLight);
+        smartHomeSiri.addCommand(dimLight);
         smartHomeSiri.addCommand(turnOffLight);
         smartHomeSiri.executeCommands();
 

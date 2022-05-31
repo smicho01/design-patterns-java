@@ -1,4 +1,6 @@
-package decorator.example1;
+package decorator.example1.concrete_decorator;
+
+import decorator.example1.AbstractDecorator;
 
 public class ConcreteDecoratorEx1 extends AbstractDecorator {
 

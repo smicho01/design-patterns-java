@@ -1,4 +1,6 @@
-package decorator.example1;
+package decorator.example1.concrete_component;
+
+import decorator.example1.Component;
 
 public class ConcreteComponent extends Component {
 

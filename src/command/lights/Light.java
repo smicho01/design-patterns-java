@@ -26,4 +26,10 @@ public class Light {
             System.out.println("Light " + name + " is already off");
         }
     }
+
+    public void dimLight(){
+        if(isOn) {
+            System.out.println("Dimming the light a bit ... done !");
+        }
+    }
 }

@@ -1,5 +1,9 @@
 package decorator.example1;
 
+import decorator.example1.concrete_component.ConcreteComponent;
+import decorator.example1.concrete_decorator.ConcreteDecoratorEx1;
+import decorator.example1.concrete_decorator.ConcreteDecoratorEx2;
+
 public class Demo {
 
     public static void main(String[] args) {
